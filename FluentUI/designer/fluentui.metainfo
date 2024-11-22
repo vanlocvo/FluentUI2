@@ -1,0 +1,451 @@
+MetaInfo {
+    Type {
+        name: "FluentUI.Controls.StandardButton"
+
+        ItemLibraryEntry {
+            name: "StandardButton"
+            category: "FluentUI -1- Inputs"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("A button with text.")
+
+            Property { name: "text"; type: "binding"; value: "qsTr(\"Button\")" }
+        }
+    }
+    Type {
+        name: "FluentUI.Controls.DelayButton"
+
+        ItemLibraryEntry {
+            name: "DelayButton"
+            category: "FluentUI -1- Inputs"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("A delay button with text.")
+            Property { name: "text"; type: "binding"; value: "qsTr(\"DelayButton\")" }
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.FilledButton"
+
+        ItemLibraryEntry {
+            name: "FilledButton"
+            category: "FluentUI -1- Inputs"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("A button with text.")
+
+            Property { name: "text"; type: "binding"; value: "qsTr(\"Button\")" }
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.PillButton"
+
+        ItemLibraryEntry {
+            name: "PillButton"
+            category: "FluentUI -1- Inputs"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("A button with text.")
+
+            Property { name: "text"; type: "binding"; value: "qsTr(\"Button\")" }
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.IconButton"
+
+        ItemLibraryEntry {
+            name: "IconButton"
+            category: "FluentUI -1- Inputs"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("A button with text.")
+
+            Property { name: "icon.name"; type: "enum"; value: FluentIcons.graph_FavoriteStar }
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.DropDownButton"
+
+        ItemLibraryEntry {
+            name: "DropDownButton"
+            category: "FluentUI -1- Inputs"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("A button with text.")
+
+            Property { name: "text"; type: "binding"; value: "qsTr(\"Button\")" }
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.HyperlinkButton"
+
+        ItemLibraryEntry {
+            name: "HyperlinkButton"
+            category: "FluentUI -1- Inputs"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("A button with text.")
+
+            Property { name: "text"; type: "string"; value: "https://github.com/" }
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.ToggleButton"
+
+        ItemLibraryEntry {
+            name: "ToggleButton"
+            category: "FluentUI -1- Inputs"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("An option button that you can toggle on or off.")
+
+            Property { name: "text"; type: "binding"; value: "qsTr(\"Toggle Button\")" }
+			Property { name: "checkable"; type: "bool"; value: "true" }
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.RadioButton"
+
+        ItemLibraryEntry {
+            name: "RadioButton"
+            category: "FluentUI -1- Inputs"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("An option button that you can toggle on or off.")
+
+            Property { name: "text"; type: "binding"; value: "qsTr(\"Radio Button\")" }
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.ProgressButton"
+
+        ItemLibraryEntry {
+            name: "ProgressButton"
+            category: "FluentUI -1- Inputs"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("A ProgressButton.")
+			
+			Property { name: "text"; type: "binding"; value: "qsTr(\"Download\")" }
+			Property { name: "indeterminate"; type: "bool"; value: true }
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.Chip"
+
+        ItemLibraryEntry {
+            name: "Chip"
+            category: "FluentUI -1- Inputs"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("A Chip.")
+			
+			Property { name: "text"; type: "binding"; value: "qsTr(\"Chip\")" }
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.CopyableText"
+
+        ItemLibraryEntry {
+            name: "CopyableText"
+            category: "FluentUI -1- Inputs"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("A CopyableText.")
+			
+			Property { name: "text"; type: "binding"; value: "qsTr(\"Copyable Text\")" }
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.CheckBox"
+
+        ItemLibraryEntry {
+            name: "CheckBox"
+            category: "FluentUI -1- Inputs"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("A checkbox with a text label.")
+
+            Property { name: "text"; type: "binding"; value: "qsTr(\"Check Box\")" }
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.Slider"
+
+        ItemLibraryEntry {
+            name: "Slider"
+            category: "FluentUI -1- Inputs"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("An adjustable slider.")
+
+            Property { name: "value"; type: "real"; value: 0.5 }
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.Switch"
+
+        ItemLibraryEntry {
+            name: "Switch"
+            category: "FluentUI -1- Inputs"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("A button that you can toggle on and off.")
+
+            Property { name: "text"; type: "binding"; value: "qsTr(\"Switch\")" }
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.TimePicker"
+
+        ItemLibraryEntry {
+            name: "TimePicker"
+            category: "FluentUI -2- Form"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("An TimePicker.")
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.DatePicker"
+
+        ItemLibraryEntry {
+            name: "DatePicker"
+            category: "FluentUI -2- Form"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("An DatePicker.")
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.CalendarPicker"
+
+        ItemLibraryEntry {
+            name: "CalendarPicker"
+            category: "FluentUI -2- Form"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("An CalendarPicker.")
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.ColorPicker"
+
+        ItemLibraryEntry {
+            name: "ColorPicker"
+            category: "FluentUI -2- Form"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("An ColorPicker.")
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.ShortcutPicker"
+
+        ItemLibraryEntry {
+            name: "ShortcutPicker"
+            category: "FluentUI -2- Form"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("A ShortcutPicker.")
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.TextBox"
+
+        ItemLibraryEntry {
+            name: "TextBox"
+            category: "FluentUI -2- Form"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("A single-line text box.")
+
+            Property { name: "placeholderText"; type: "binding"; value: "qsTr(\"Text Box\")" }
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.MultiLineTextBox"
+
+        ItemLibraryEntry {
+            name: "MultiLineTextBox"
+            category: "FluentUI -2- Form"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("A multi-line text box.")
+
+            Property { name: "placeholderText"; type: "binding"; value: "qsTr(\"Multi Line Text Box\")" }
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.PasswordBox"
+
+        ItemLibraryEntry {
+            name: "PasswordBox"
+            category: "FluentUI -2- Form"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("A single-line text box.")
+
+            Property { name: "placeholderText"; type: "binding"; value: "qsTr(\"Password\")" }
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.AutoSuggestBox"
+
+        ItemLibraryEntry {
+            name: "AutoSuggestBox"
+            category: "FluentUI -2- Form"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("A AutoSuggestBox")
+
+            Property { name: "placeholderText"; type: "binding"; value: "qsTr(\"AutoSuggestBox\")" }
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.ComboBox"
+
+        ItemLibraryEntry {
+            name: "ComboBox"
+            category: "FluentUI -2- Form"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("A ComboBox")
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.MultiSelectComboBox"
+
+        ItemLibraryEntry {
+            name: "MultiSelectComboBox"
+            category: "FluentUI -2- Form"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("A MultiSelectComboBox")
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.NumberBox"
+
+        ItemLibraryEntry {
+            name: "NumberBox"
+            category: "FluentUI -2- Form"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("A NumberBox")
+
+            Property { name: "value"; type: "int"; value: 1 }
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.IconLabel"
+
+        ItemLibraryEntry {
+            name: "IconLabel"
+            category: "FluentUI -3- Surfaces"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("A IconLabel.")
+
+            Property { name: "icon.name"; type: "enum"; value: FluentIcons.graph_FavoriteStar }
+			Property { name: "icon.width"; type: "int"; value: 20 }
+			Property { name: "icon.height"; type: "int"; value: 20 }
+			Property { name: "spacing"; type: "int"; value: 10 }
+			Property { name: "text"; type: "binding"; value: "qsTr(\"Star\")" }
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.InfoBar"
+
+        ItemLibraryEntry {
+            name: "InfoBar"
+            category: "FluentUI -3- Surfaces"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("A InfoBar.")
+
+			Property { name: "title"; type: "binding"; value: "qsTr(\"Title\")" }
+			Property { name: "message"; type: "binding"; value: "qsTr(\"This is Message\")" }
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.InfoBadge"
+
+        ItemLibraryEntry {
+            name: "InfoBadge"
+            category: "FluentUI -3- Surfaces"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("A InfoBadge.")
+
+			Property { name: "count"; type: "int"; value: 100 }
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.Expander"
+
+        ItemLibraryEntry {
+            name: "Expander"
+            category: "FluentUI -3- Surfaces"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("An Expander.")
+
+            Property { name: "title"; type: "binding"; value: "qsTr(\"Expander Title\")" }
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.ProgressBar"
+
+        ItemLibraryEntry {
+            name: "ProgressBar"
+            category: "FluentUI -3- Surfaces"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("A bar indicating the progress of an operation.")
+
+            Property { name: "value"; type: "real"; value: 0.5 }
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.ProgressRing"
+
+        ItemLibraryEntry {
+            name: "ProgressRing"
+            category: "FluentUI -3- Surfaces"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("A bar indicating the progress ring of an operation.")
+
+            Property { name: "value"; type: "real"; value: 0.5 }
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.Watermark"
+
+        ItemLibraryEntry {
+            name: "Watermark"
+            category: "FluentUI -3- Surfaces"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("A Watermark.")
+
+            Property { name: "text"; type: "binding"; value: "qsTr(\"Watermark\")" }
+			Property { name: "width"; type: "int"; value: 300 }
+			Property { name: "height"; type: "int"; value: 300 }
+        }
+    }
+	Type {
+        name: "FluentUI.Controls.RatingControl"
+
+        ItemLibraryEntry {
+            name: "RatingControl"
+            category: "FluentUI -3- Surfaces"
+            version: "1.0"
+            requiredImport: "FluentUI.Controls"
+            toolTip: qsTr("A RatingControl")
+
+            Property { name: "value"; type: "int"; value: 2 }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+module FluentUI.impl
+linktarget FluentUIImpl
+optional plugin FluentUIImpl
+classname FluentUI_implPlugin
+designersupported
+typeinfo plugins.qmltypes
+prefer :/qt/qml/FluentUI/impl/
+Objects 1.0 Objects.qml
+SyntaxHighlighter 1.0 SyntaxHighlighter.qml
+
